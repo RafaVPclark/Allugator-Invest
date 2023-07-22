@@ -1,0 +1,256 @@
+body, html {
+    height: 100%;
+    background-color:  #F9F9FD !important;
+    overflow-x: hidden;
+}
+#home{
+    min-height: 100%;
+    background:  #0F1217;
+}
+#Executivos{
+    height: 100%;
+}
+/*GERAL*/
+h1{
+    font-family: "Fira Sans",Sans-serif;
+    color: #fff;
+    font-size: 48px !important;
+    font-weight: 500 !important;
+    line-height: 1.4em !important; 
+    letter-spacing: 0 !important;
+    text-shadow: 0.1em 0.1em 0.7em #fff
+}
+p{
+    color: lightgrey;
+    font-size: 1.2em;
+}
+
+.centralizar_texto{
+    text-align: center;
+}
+
+.centralizar_conteudo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.alinhar_direita{
+    margin-left: auto;
+}
+.fa-solid{
+    color: #1E3DFB;
+    padding: 10px 10px;
+}
+.fa-regular{
+    color: #1E3DFB;
+    padding: 10px 10px;
+}
+
+.btn-custom{
+    /* width: 15vw; */
+    height: 60px;
+    color: #fff !important;
+    box-shadow:8px 8px 2px 1px rgb(138, 136, 148,0.3);
+    background-color: #1E3DFB !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 1em !important; 
+    letter-spacing: 0 !important;
+}
+.btn-custom:hover{
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+
+.btn-custom-lg{
+    width: 30vw;
+    height: 60px;
+    color: #fff !important;
+    box-shadow:8px 8px 2px 1px rgb(138, 136, 148,0.3);
+    background-color: #1E3DFB !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 1em !important; 
+    letter-spacing: 0 !important;
+}
+
+.btn-custom-lg:hover{
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+/*Conteúdo Principal*/
+#conteudo_principal{
+    height: 100%;
+}
+
+/*Formulário*/
+#formulario{
+    box-shadow: 0 2px 24px -1px rgb(131 161 198 / 34%);
+    border-radius: 10px 30px 10px 30px;
+    background-color: #fff;
+}
+
+.form-title{
+    color: #324759;
+}
+
+/*Anuncios Allugator*/
+
+#Anuncios_allugator h2{
+    color: black;  
+}
+
+/*RENTABILIDADE ALLUGATOR*/
+#Rentabilidade_allugator h1{
+    color: #324759;
+    font-size: 1.2em;
+}
+#img1{
+    border-radius: 0px 90px 0px 90px;
+}
+
+#img2{
+    border-radius: 90px 0px 90px 0px;
+    border: 10px solid #fff;
+    margin-left: auto;
+}
+
+.sobrepor{
+    transform:translateY(-50px);
+}
+
+#Rentabilidade_allugator p{
+    text-align: justify;
+    color: darkslategrey;
+    font-size: 1.1em;
+}
+
+/*ESBAJANJANDO DINHEIRO*/
+#Esbanjando_dinheiro{
+    background-color: #fff;
+}
+#Esbanjando_dinheiro h2{
+    font-size: 48px;
+}
+
+#Esbanjando_dinheiro p{
+    font-size: 18px;
+}
+.dinheiro_title{
+    text-align: center;
+    color: #1E3DFB;
+}
+.dinheiro_descricao{
+    text-align: center;
+    color: #324759;
+}
+/*LOTE DISPONÍVEL*/
+#Lote_disponivel{
+    /* min-height: 100%; */
+    background: #fff;
+}
+
+#Lote_disponivel h1{
+    color: #0F1217;
+    font-size: 40px !important;
+    font-weight: 500 !important;
+    line-height: 1.35em !important;
+    letter-spacing: -.5px !important;
+}
+.lote_title{
+    font-family: "Fira Sans",Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#Lote_disponivel p{
+    color: darkslategrey;
+}
+
+/*FORMULÁRIO PRINCIPAL*/
+#formulario_principal{
+    background-color: #0F1217;
+}
+#formulario2{
+    box-shadow: 0 2px 24px -1px rgb(131 161 198 / 34%);
+    border-radius: 10px 30px 10px 30px;
+    background-color: #fff;
+}
+
+/*QUEM SOMOS*/
+
+#quemSomos{
+    background: #0F1217;
+}
+
+#quemSomos .fa-solid{
+    color: #fff !important;
+}
+
+/*PROTEÇÃO INVESTIDOR*/
+
+#Protecao_investidor h1{
+    color: #0F1217;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    line-height: 1.35em !important;
+    word-spacing: -0.3px !important;
+}
+.title_div{
+    color: #0F1217;
+    font-family: "Fira Sans",Sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.35em;
+    word-spacing: -0.3px;
+}
+.title{
+    color: #0F1217;
+    font-family: "Fira Sans",Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: .2px;
+    -webkit-text-stroke-color: #000;
+    stroke: #000;
+}
+
+#Protecao_investidor p{
+    color: #64646E;
+    text-align: center;
+    color: #64636E;
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    letter-spacing: .2px;
+}
+
+
+.carousel_custom{
+    border-radius: 50px 50px 0px 0px;
+}
+/*EXECUTIVOS*/ 
+
+/* RODAPÉ */
+#rodape{
+    background: #0F1217;
+    min-height: 150px;
+    color: #fff;
+}
